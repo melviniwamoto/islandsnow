@@ -11,32 +11,80 @@
 </head>
 <body>
 <!-- Nav Bar at the top -->
-  <nav class="navbar navbar-expand navbar-light">
-    <div class="container justify-content-start">
-      <ul class="nav align-items-center">
-        <li class="nav-item"><i class="bi bi-facebook p-1"></i></li>
-        <li class="nav-item"><i class="bi bi-twitter p-1"></i></li>
-        <li class="nav-item"><i class="bi bi-pinterest p-1"></i></li>
-        <li class="nav-item"><i class="bi bi-instagram p-1"></i></li>
-      </ul>
-    </div>
-    <div class="container justify-content-end">
-      <ul class="nav align-items-center">
-        <li class="nav-item"><i class="bi bi-house-fill p-1"></i></li>
-        <li class="nav-item"><i class="bi bi-search p-1"></i></li>
-        <li class="nav-item"><i class="bi bi-person-fill p-1"></i></li>
-        <li class="nav-item dropdown">
-          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            <i class="bi bi-cart2"> 0</i>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Show Cart</a></li>
-            <li><a class="dropdown-item" href="#">Empty Cart</a></li>
-            <li><a class="dropdown-item" href="#">Checkout</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+<div class="container">
+  <nav class="navbar bg-light">
+    <ul class="nav align-items-center">
+      <li class="nav-item"><i class="bi bi-facebook p-1"></i></li>
+      <li class="nav-item"><i class="bi bi-twitter p-1"></i></li>
+      <li class="nav-item"><i class="bi bi-pinterest p-1"></i></li>
+      <li class="nav-item"><i class="bi bi-instagram p-1"></i></li>
+    </ul>
+    <ul class="nav justify-content-end align-items-center">
+      <li class="nav-item"><i class="bi bi-house-fill p-1"></i></li>
+      <li class="nav-item"><i class="bi bi-search p-1"></i></li>
+      <li class="nav-item"><i class="bi bi-person-fill p-1"></i></li>
+      <li class="nav-item dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          <i class="bi bi-cart2"> 0</i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Show Cart</a></li>
+          <li><a class="dropdown-item" href="#">Empty Cart</a></li>
+          <li><a class="dropdown-item" href="#">Checkout</a></li>
+        </ul>
+      </li>
+    </ul>
   </nav>
+</div>
+<!-- a row div and a col div to place the Island Snow logo underneath the menu -->
+<div class="row">
+  <div class="col">
+    <img class="img-fluid rounded mx-auto d-block py-3" src="https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/experience-islandsnow-bootstrap-logo.png" alt="Island Snow Logo">
+  </div>
+</div>
+<div class="container">
+  <div class="row justify-content-center pt-4">
+    <div class="col-2 dropdown">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <b>MEN</b>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+        <li>Stuff for Men</li>
+      </ul>
+    </div>
+    <div class="col-2 dropdown">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <b>WOMEN</b>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+        <li>Stuff for Women</li>
+      </ul>
+    </div>
+    <div class="col-2 dropdown">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <b>KIDS</b>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+        <li>Stuff for Kids</li>
+      </ul>
+    </div>
+    <div class="col-2 dropdown">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <b>BRANDS</b>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+        <li>A Specific Brand</li>
+      </ul>
+    </div>
+    <div class="col-2">
+      <button class="btn" type="button">
+        <b>SEARCH</b>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <img class="img-fluid" src="https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/experience-islandsnow-bootstrap-main.png" alt="Picture of a person sitting on an arch over a stone walkway">
+</div>
 </body>
 </html>
